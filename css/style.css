@@ -1,0 +1,254 @@
+/*common css starts*/
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css ends*/
+/*header starts*/
+header{
+    padding: 25px 0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 15px;
+    width: 12%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 66%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0px 60px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/*header ends*/
+/*banner starts*/
+.banner{
+    padding: 75px 0;
+}
+.b_img{
+    margin: 0 auto;
+    width: 100%;
+}
+.b_img img{
+    width: 100%;
+}
+/*banner ends*/
+
+/*weekend starts*/
+.weekend{
+    padding: 80px 0;    
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.w_content{}
+.c_tag{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    line-height: 24px;
+}
+.mb_45{
+    margin-bottom: 45px;
+}
+/*weekend ends*/
+/*single blog starts*/
+.blog{
+    padding: 0 0 80px;
+}
+.s_blog{
+    margin-top: 80px;
+    width: 47%;
+    box-sizing: border-box;
+    float: left;
+}
+.s_blog:nth-child(even){
+    margin-left: 6%;
+}
+.s_img{
+    margin-bottom: 20px;
+}
+.s_img img{
+    width: 100%;
+}
+/*single blog ends*/
+/*newsletter starts*/
+.newsletter{
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: #333333;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+.s_form input{
+    width: 345px;
+    height: 45px;
+    padding: 0 45px 0 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+}
+.s_form input :focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{
+    width: 100%;
+}
+/*form ends*/
+/*blog2 starts*/
+.b2{
+    padding: 0 0 80px;
+}
+/*blog2 ends*/
+/*load starts*/
+.load{
+    display: block;
+    padding: 0 0 80px;   
+    text-align: center;
+}
+.load_button{
+    margin: 80px 0 100px;
+    width: 164px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #3a3a3a;
+}
+.load_button:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+/*load ends*/
+/*footer starts*/
+footer{
+    background-color: #f0f0f0;
+}
+.container3{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.f_left{
+    width: 45%;
+    padding: 25px 0;
+    float: left;
+}
+.l_menu{}
+.l_menu ul{
+    float: left;
+}
+.l_menu ul li{
+    list-style: none;
+    float: left;
+}
+.l_menu ul li a{
+    display: inline-block;
+    margin: 15px 20px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+.l_menu ul li a:first-child{
+    padding-left: 15px;
+}
+.f_right{
+    width: 30%;
+    padding: 25px 0;
+    float: right;
+}
+.r_menu{
+    float: right;
+}
+.r_menu ul{
+    float: right;
+}
+.r_menu ul li{
+    list-style: none;
+    float: left;
+}
+.r_menu ul li a{
+    display: inline-block;
+    margin: 15px 20px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+.r_menu ul li a:last-child{
+    margin-right: 30px;
+}
+
+/*footer ends*/
