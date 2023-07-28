@@ -129,11 +129,11 @@ header{
 }
 .s_form{
     position: relative;
-    width: 400px;
+    width: 320px;
     margin: 0 auto;
 }
 .s_form input{
-    width: 345px;
+    width: 265px;
     height: 45px;
     padding: 0 45px 0 5px;
     font-family: 'Playfair Display', serif;
@@ -193,7 +193,8 @@ footer{
     background-color: #f0f0f0;
 }
 .container3{
-    margin-top: 100px;
+    width: 90%;
+    margin: 0 auto;
     overflow: hidden;
 }
 .f_left{
